@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KDU Alumni Gallery - Engineering</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 95%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #000080;
+        }
+       h2 {
+            text-align: center;
+            color: #804040;
+        }
+
+       h3 {
+            text-align: center;
+            color: #000080;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .alumni-card {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+            width: 200px;
+            text-align: center;
+            overflow: hidden;
+            transition: transform 0.2s;
+        }
+        .alumni-card:hover {
+            transform: scale(1.05);
+        }
+        .alumni-card img {
+            width: 200px;
+            height: 250px;
+            object-fit: cover;
+        }
+        .alumni-card h3 {
+            margin: 10px 0 5px 0;
+        }
+        .alumni-card p {
+            margin: 5px 0;
+            font-size: 0.9em;
+            color: #555;
+        }
+        .alumni-card a {
+            display: inline-block;
+            margin: 10px 0 15px 0;
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>General Sir John Kotalawela Defence University<br/>
+Alumni Gallery - Engineering</h1>
+
+<div style="text-align:center; margin-bottom:20px;">
+    <input type="text" id="searchBox" placeholder="Search by name, field or graduation year"
+           style="width:300px; padding:8px; font-size:16px;">
+</div>
+
+        <div class="gallery" id="alumniGallery">
+            <!-- Alumni cards will be inserted here -->
+        </div>
+    </div>
+
+<div class="gallery">
+
+    <!-- Intake 1 - 1981 -->
+    <div style="width:100%; text-align:center;">
+        <hr>
+        <h2>Intake 1 - 1981</h2>
+    </div>
+
+    <div class="alumni-card">
+        <img src="AlumniPhotos/Intake1-NRC0296.jpg" loading="lazy" onerror="this.onerror=null; this.src='AlumniPhotos/sample_profile.jpg';">
+        <h3>Rear Admiral W.S. Jayasinghe</h3>
+        <p>BSc Engineering</p>
+        <p>Graduation: 1985 (UoM)</p>
+        <a href="https://kdualumni.lk/view-member-profile/W.%20S.%20Jayasinghe/4310">View Profile</a>
+    </div>
+
+    <div class="alumni-card">
+        <img src="AlumniPhotos/Intake1-NRE0200.jpg" loading="lazy" onerror="this.onerror=null; this.src='AlumniPhotos/sample_profile.jpg';">
+        <h3>Captain P. A. Jayasinghe</h3>
+        <p>BSc Engineering</p>
+        <p>Graduation: 1985 (UoM)</p>
+        <a href="https://kdualumni.lk/view-member-profile/PA%20Jayasinhe/2131">View Profile</a>
+    </div>
+
+<div class="alumni-card">
+        <img src="AlumniPhotos/missing.jpg" loading="lazy" onerror="this.onerror=null; this.src='AlumniPhotos/sample_profile.jpg';">
+        <h3>Missing Graduate</h3>
+        <p>BSc Engineering</p>
+        <p>Graduation: 1985</p>
+        <a href="#" style="display:none;">View Profile</a>
+    </div>
+
+    <!-- Intake 2 - 1981 -->
+    <div style="width:100%; text-align:center;">
+        <hr>
+        <h2>Intake 2 - 1981</h2>
+    </div>
+
+    <div class="alumni-card">
+        <img src="AlumniPhotos/Intake2-O60477.jpg" loading="lazy" onerror="this.onerror=null; this.src='AlumniPhotos/sample_profile.jpg';">
+        <h3>Major General K Renuka P Rowel</h3>
+        <p>BSc Engineering (UoM EnTc)</p>
+        <p>Graduation: 1985</p>
+        <a href="https://kdualumni.lk/public/view-member-profile/KRP%20Rowel%20%28Retd%29%20RWP%20VSV%20USP%20ndu%20USACGSC/5">View Profile</a>
+    </div>
+
+    <div class="alumni-card">
+        <img src="AlumniPhotos/Intake2-NRE0313.jpg" loading="lazy" onerror="this.onerror=null; this.src='AlumniPhotos/sample_profile.jpg';">
+        <h3>Rear Admiral S A S Amarasinghe</h3>
+        <p>BSc Engineering (UoM)</p>
+        <p>Graduation: 1985</p>
+        <a href="https://kdualumni.lk/view-member-profile/SAS%20AMARASINGHE/301">View Profile</a>
+    </div>
+
+    <div class="alumni-card">
+        <img src="AlumniPhotos/Intake2-OC1046.jpg" loading="lazy" onerror="this.onerror=null; this.src='AlumniPhotos/sample_profile.jpg';">
+        <h3>Commander Prof KKCK Perera</h3>
+        <p>BSc Engineering (UoM Mech)</p>
+        <p>Graduation: 1985</p>
+        <a href="https://kdualumni.lk/view-member-profile/Prof%20KKCK%20Perera/428">View Profile</a>
+    </div>
+
+    <div class="alumni-card">
+        <img src="AlumniPhotos/Intake2-OC1047.jpg" loading="lazy" onerror="this.onerror=null; this.src='AlumniPhotos/sample_profile.jpg';">
+        <h3>Lt. Cdr. Prasanna D Meemaduma</h3>
+        <p>BSc Engineering (UoM)</p>
+        <p>Graduation: 1985</p>
+        <a href="https://kdualumni.lk/view-member-profile/P%20D%20Meemaduma%20/4464">View Profile</a>
+    </div>
+
+    <div class="alumni-card">
+        <img src="AlumniPhotos/Intake2-O60698.jpg" loading="lazy" onerror="this.onerror=null; this.src='AlumniPhotos/sample_profile.jpg';">
+        <h3>Lt. Col. P U Chandrasiri</h3>
+        <p>BSc Engineering (UoM EnTc)</p>
+        <p>Graduation: 1985</p>
+        <a href="https://kdualumni.lk/view-member-profile/P%20U%20CHANDRASIRI/250">View Profile</a>
+    </div>
+
+   <!-- Intake 5 - 1987 -->
+    <div style="width:100%; text-align:center;">
+        <hr>
+        <h2>Intake 5 - 1987</h2>
+    </div>
+
+    <div class="alumni-card">
+        <img src="AlumniPhotos/AlphaB2025.jpg" loading="lazy" onerror="this.onerror=null; this.src='AlumniPhotos/sample_profile.jpg';">
+        <h3>Missing Graduate</h3>
+        <p>BSc (Defence Studies)</p>
+        <p>Graduation: 1991</p>
+        <a href="https://example.com/alpha">View Profile</a>
+    </div>
+
+<!-- Intake 6 - 1988 -->
+    <div style="width:100%; text-align:center;">
+        <hr>
+        <h2>Intake 6 - 1988</h2>
+    </div>
+
+    <div class="alumni-card">
+        <img src="AlumniPhotos/Intake6-OC1241.jpg" loading="lazy" onerror="this.onerror=null; this.src='AlumniPhotos/sample_profile.jpg';">
+        <h3>Air Marshal R.A. Udeni P. Rajapaksa</h3>
+        <p>BSc (Defence Studies) Engineering</p>
+        <p>Graduation: 1991</p>
+        <a href="https://kdualumni.lk/view-member-profile/RAUP%20Rajapaksa%20RSP%20and%20two%20Bars%20VSV%20USP%20MSc%20%28MOA%29%20/172">View Profile</a>
+    </div>
+
+    <div class="alumni-card">
+        <img src="AlumniPhotos/Intake6-OC1272.jpg" loading="lazy" onerror="this.onerror=null; this.src='AlumniPhotos/sample_profile.jpg';">
+        <h3>Air Commodore LMSK Leelaratne</h3>
+        <p>BSc (Defence Studies) Engineering</p>
+        <p>Graduation: 1991</p>
+        <a href="https://kdualumni.lk/view-member-profile/LMSK%20Leelaratne/535">View Profile</a>
+    </div>
+
+    <div class="alumni-card">
+        <img src="AlumniPhotos/Intake6-OC1327.jpg" loading="lazy" onerror="this.onerror=null; this.src='AlumniPhotos/sample_profile.jpg';">
+        <h3>Rear Admiral H. U. Dammika Kumara</h3>
+        <p>BSc (Defence Studies) Engineering</p>
+        <p>Graduation: 1991</p>
+        <a href="https://kdualumni.lk/view-member-profile/LMSK%20Leelaratne/535">View Profile</a>
+    </div>
+
+
+<!-- Intake 7 - 1989 -->
+    <div style="width:100%; text-align:center;">
+        <hr>
+        <h2>Intake 7 - 1989</h2>
+    </div>
+
+    <div class="alumni-card">
+        <img src="AlumniPhotos/Intake7-OC1429.jpg" loading="lazy" onerror="this.onerror=null; this.src='AlumniPhotos/sample_profile.jpg';">
+        <h3>Rear Admiral T.W. Wiraj Leelaratne</h3>
+        <p>BSc (Defence Studies) Engineering</p>
+        <p>Graduation: 1992</p>
+        <a href="https://kdualumni.lk/view-member-profile/LMSK%20Leelaratne/535">View Profile</a>
+    </div>
+
+    <div class="alumni-card">
+        <img src="AlumniPhotos/Intake7-NRE0667.jpg" loading="lazy" onerror="this.onerror=null; this.src='AlumniPhotos/sample_profile.jpg';">
+        <h3>Commodore DSPK De Silva</h3>
+        <p>BSc (Defence Studies) Marine Eng</p>
+        <p>Graduation: 1992</p>
+        <a href="https://cmetsl.lk/profile.php?b_id=MTAxNw==">View Profile</a>
+    </div>
+
+    <div class="alumni-card">
+        <img src="AlumniPhotos/Intake7-Dampage.jpg" loading="lazy" onerror="this.onerror=null; this.src='AlumniPhotos/sample_profile.jpg';">
+        <h3>Captain S Udaya Dampage</h3>
+        <p>BSc Engineering (Electrical & Electronic)</p>
+        <p>Graduation: 1992</p>
+        <a href="https://foe.kdu.ac.lk/electrical/profile/eng-su-dampage">View Profile</a>
+    </div>
+
+https://foe.kdu.ac.lk/electrical/profile/eng-su-dampage
+
+</div>
+
+<script>
+    const searchBox = document.getElementById("searchBox");
+
+    searchBox.addEventListener("keyup", function() {
+        const filter = searchBox.value.toLowerCase();
+
+        const cards = document.querySelectorAll(".alumni-card");
+
+        cards.forEach(card => {
+            const text = card.innerText.toLowerCase();
+
+            if (text.includes(filter)) {
+                card.style.display = "";
+            } else {
+                card.style.display = "none";
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
